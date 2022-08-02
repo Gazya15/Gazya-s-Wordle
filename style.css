@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter {
+  font-family: "Oswald", sans-serif;
+  width: 45px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.state {
+  display: none;
+  position: relative;
+  bottom: 400px;
+  left: 400px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.try {
+  font-size: 16px;
+}
+
+.modal {
+  position: absolute;
+  top: 0px;
+  right: 100px;
+  bottom: 0;
+  left: 0;
+  z-index: 10040;
+  overflow: auto;
+  overflow-y: auto;
+}
+
+.game {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
